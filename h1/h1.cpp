@@ -22,13 +22,14 @@ void calcDiv(int a,int b){
   if(b==0){
     cout << "Divisor cannot be zero!" << endl;
   }else{
-    cout << (float)a/(float)b << endl;
+    cout << (float)((float)a/(float)b) << endl;
   }
 }
 
 int main()
 {
-  int a,b,result;
+  int a,b;
+  float result;
   cout << "Input number 1" << endl;
   cin >> a;
   cout << "Input number 2" << endl;
